@@ -121,19 +121,6 @@ main section article i,
     color: #39b54a;
 }
 
-@media (max-width: 361px) {
-    .top-header{
-        display: flex;
-        flex-direction: row;
-    }
-    .logo img{
-        width: 100%;
-    }
-    .form{
-        width: 50%;
-    }
-}
-
 .lista{
     text-decoration: none;
     color:#000;
@@ -156,3 +143,15 @@ footer article i{
     margin-bottom: 10px;
 }
 
+@media (max-width: 361px) {
+    .top-header{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .form{
+        width: 50%;
+    }
+}
